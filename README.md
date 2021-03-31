@@ -2,7 +2,7 @@
 
 Introduction
 
-This is a collection of scripts useful for pentesting
+This is a collection of useful scripts
 
 Organization
 
