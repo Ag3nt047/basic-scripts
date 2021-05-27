@@ -1,0 +1,1 @@
+host=172.16.1.101;for port in $(seq 1 65535);do (nc -zv $host $port 2>&1 | grep "succeeded!" | cut -d " " -f 4);done
