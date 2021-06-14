@@ -1,0 +1,8 @@
+#Resizing pvedata after replacing with larger SSD drive and restoring using Macrium Reflect
+
+apt install parted
+parted /dev/nvme0n1
+quit
+pvresize /dev/nvme0n1p3
+lvresize --extents +100%FREE --resizefs /dev/mapper/pve-data
+#resize2fs /dev/mapper/pve-data
