@@ -2,6 +2,7 @@
 
 apt install parted
 parted /dev/nvme0n1
+resizepart 3 100%
 quit
 pvresize /dev/nvme0n1p3
 lvresize --extents +100%FREE --resizefs /dev/mapper/pve-data
