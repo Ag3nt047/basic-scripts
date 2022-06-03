@@ -1,5 +1,5 @@
-# simple scripts and one-liners
+# simple scripts and/or one-liners
 
-This is a collection of useful simple scripts or one-iners
+This is a collection of useful simple scripts and/or one-iners
 
 
