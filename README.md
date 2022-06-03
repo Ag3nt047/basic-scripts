@@ -1,8 +1,5 @@
-# scripts
+# simple scripts and one-liners
 
-Introduction
+This is a collection of useful simple scripts or one-iners
 
-This is a collection of useful scripts
-
-Organization
 
